@@ -19,10 +19,10 @@ function printOutput(num) {
         result.innerText = num;
 }
 function formattedString(num) {
-    if (Number.isInteger(num))
-        return parseInt(num).toLocaleString();
-    else
-        return num.toLocaleString();
+    // if (Number.isInteger(num))
+    //     return parseInt(num).toLocaleString();
+    // else
+    return Number(num).toLocaleString();
 
 }
 function reverseFormattedString(num) {
